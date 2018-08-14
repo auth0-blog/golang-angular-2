@@ -3,5 +3,6 @@ export const environment = {
   gateway: '',
   callback: 'http://localhost:4200/callback',
   domain: 'bk-tmp.auth0.com',
-  clientId: 'z4Z09quobJQ7ngXTaUDkCzzQ9vjZ6eEX'
+  clientId: 'z4Z09quobJQ7ngXTaUDkCzzQ9vjZ6eEX',
+  audience: 'https://my-golang-api'
 };

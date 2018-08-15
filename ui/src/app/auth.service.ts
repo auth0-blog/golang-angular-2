@@ -15,7 +15,7 @@ export class AuthService {
   expires_at: string;
 
   auth0 = new auth0.WebAuth({
-    clientID: 'bpF1FvreQgp1PIaSQm3fpCaI0A3TCz5T',
+    clientID: environment.clientId,
     domain: environment.domain,
     responseType: 'token id_token',
     audience: environment.audience,
@@ -62,6 +62,6 @@ export class AuthService {
   }
 
   public createAuthHeaderValue(): string {
-    return 'Bearer ' + this.id_token;
+    return 'Bearer ' + this.access_token;
   }
 }

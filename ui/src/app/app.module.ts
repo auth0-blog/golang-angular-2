@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AuthGuardService } from './auth-guard.service';
 import { AuthService } from './auth.service';
-import { CallbackComponent } from 'src/app/callback/callback.component';
+import { CallbackComponent } from './callback/callback.component';
 import { TodoComponent } from './todo/todo.component';
 import { TodoService } from './todo.service';
 import { FormsModule } from '@angular/forms';
